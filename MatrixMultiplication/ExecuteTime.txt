@@ -1,0 +1,56 @@
+Matrix DATA TYPE : Double
+
+Matrix Size : 1000x1000
+Serial Multiplication Time taken: 9.422
+Parallelized Multiplication with Block Data Sharing Time taken: 4.77
+Parallelized Multiplication with Sequential Data Sharing Time taken: 5.063
+
+Matrix Size : 2000x2000
+Serial Multiplication Time taken: 87.801
+Parallelized Multiplication with Block Data Sharing Time taken: 46.528
+Parallelized Multiplication with Sequential Data Sharing Time taken: 45.868
+
+Matrix Size : 3000x3000
+Serial Multiplication Time taken: 330.048
+Parallelized Multiplication with Block Data Sharing Time taken: 173.608
+Parallelized Multiplication with Sequential Data Sharing Time taken: 170.954
+
+Matrix Size : 4000x4000
+Serial Multiplication Time taken: 881.459
+Parallelized Multiplication with Block Data Sharing Time taken: 317.811
+Parallelized Multiplication with Sequential Data Sharing Time taken: 239.85
+
+Matrix Size : 5000x5000
+Serial Multiplication Time taken: 1177.63
+Parallelized Multiplication with Block Data Sharing Time taken: 485.878
+Parallelized Multiplication with Sequential Data Sharing Time taken: 477.515
+
+
+Matrix DATA TYPE : Float
+
+Matrix Size : 1000x1000
+Serial Multiplication Time taken: 9.211
+Parallelized Multiplication with Block Data Sharing Time taken: 4.405
+Parallelized Multiplication with Sequential Data Sharing Time taken: 4.935
+
+Matrix Size : 2000x2000
+Serial Multiplication Time taken: 70.984
+Parallelized Multiplication with Block Data Sharing Time taken: 41.085
+Parallelized Multiplication with Sequential Data Sharing Time taken: 40.936
+
+Matrix Size : 3000x3000
+Serial Multiplication Time taken: 243.89
+Parallelized Multiplication with Block Data Sharing Time taken: 101.048
+Parallelized Multiplication with Sequential Data Sharing Time taken: 101.195
+
+Matrix Size : 4000x4000
+Serial Multiplication Time taken: 662.08
+Parallelized Multiplication with Block Data Sharing Time taken: 243.502
+Parallelized Multiplication with Sequential Data Sharing Time taken: 231.223
+
+Matrix Size : 5000x5000
+Serial Multiplication Time taken: 1029.75
+Parallelized Multiplication with Block Data Sharing Time taken: 473.985
+Parallelized Multiplication with Sequential Data Sharing Time taken: 454.407
+Matrix DATA TYPE : Float 
+Matrix Size : 1000x1000

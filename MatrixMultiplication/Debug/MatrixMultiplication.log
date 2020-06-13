@@ -1,0 +1,6 @@
+﻿  MatrixMultiplication.cpp
+c:\users\sfkeklik\source\repos\matrixmultiplication\matrixmultiplication\matrixmultiplication.cpp(123): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\sfkeklik\source\repos\matrixmultiplication\matrixmultiplication\matrixmultiplication.cpp(124): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\sfkeklik\source\repos\matrixmultiplication\matrixmultiplication\matrixmultiplication.cpp(177): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\sfkeklik\source\repos\matrixmultiplication\matrixmultiplication\matrixmultiplication.cpp(178): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+  MatrixMultiplication.vcxproj -> C:\Users\sfkeklik\source\repos\MatrixMultiplication\Debug\MatrixMultiplication.exe
