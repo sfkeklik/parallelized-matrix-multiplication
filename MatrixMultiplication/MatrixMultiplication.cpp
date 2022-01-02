@@ -162,9 +162,13 @@ void* parallelizedMatrixMultiplication(void* threadArg) {
 	void* status=NULL;
 	for (int row = my_data->start; row < my_data->finish; row++)
 		for (int col = my_data->start; col < my_data->finish; col++) {
-			int matrix1Pos = row * my_data->width + col;
-			int matrix2Pos = col * my_data->width + row;
-			my_data->resultMatrix[matrix1Pos] = my_data->matrix1[matrix1Pos] * my_data->matrix2[matrix2Pos];
+			int resultPos = row * my_data->width + col;
+			my_data->resultMatrix[resultPos] = 0;
+			for (int k = 0; k < my_data->width; k++) {
+				int matrix1Pos = row * my_data->width + k;
+				int matrix2Pos = k * my_data->width + col;
+				my_data->resultMatrix[resultPos] += my_data->matrix1[matrix1Pos] * my_data->matrix2[matrix2Pos];
+			}
 		}
 
 
